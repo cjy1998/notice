@@ -6,7 +6,9 @@
   "scripts": {
    "dev:backend": "pnpm --filter @notic/backend start:dev",
     "dev:frontend": "pnpm --filter @notic/frontend dev",
-    "build:shared": "pnpm --filter @notic/shared build"
+    "build:shared": "pnpm --filter @notic/shared build",
+    "db:migrate": "pnpm --filter @notic/database db:migrate",
+    "db:generate": "pnpm --filter @notic/database db:generate"
   },
   "keywords": [],
   "author": "",

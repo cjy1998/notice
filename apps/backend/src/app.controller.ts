@@ -10,4 +10,8 @@ export class AppController {
   getUser(): IUser {
     return this.appService.getUser();
   }
+  @Get('users')
+  async getAllUsers(): Promise<IUser[]> {
+    return await this.appService.getAllUsers();
+  }
 }

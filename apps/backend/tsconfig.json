@@ -21,6 +21,9 @@
       "@notic/shared": [
         "../../packages/shared/src/index.ts"
       ],
+      "@notic/database": [
+        "../../packages/database/src/index.ts"
+      ]
     }
   }
 }
