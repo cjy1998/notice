@@ -4,7 +4,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "watch": "tsc --watch"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,8 @@
   "packageManager": "pnpm@10.18.3",
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "zod": "^4.3.5"
   }
 }

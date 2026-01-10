@@ -1,7 +1,1 @@
-export interface IUser {
-  id: number;
-  name: string;
-  email: string;
-}
-
-export const API_PREFIX = '/api/v1';
+export * from "./schemas/user";
